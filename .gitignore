@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+/.venv/
+/.langgraph_api/
+venv/
+env/
+ENV/
+
+# Test and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Environment files and secrets
+.env
+.env.*
+*.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
